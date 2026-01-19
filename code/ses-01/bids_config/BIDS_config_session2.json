@@ -1,0 +1,244 @@
+{
+   "descriptions": [
+      {
+         "dataType": "fmap",
+         "modalityLabel": "magnitude1",
+         "customLabels": "acq-mapfirst",
+         "IntendedFor": [
+            5,
+            6,
+            7,
+            8
+         ],
+         "criteria": {
+            "SidecarFilename": "*field_map_first*e1*",
+            "EchoTime": 0.00492
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "magnitude2",
+         "customLabels": "acq-mapfirst",
+         "IntendedFor": [
+            5,
+            6,
+            7,
+            8
+         ],
+         "criteria": {
+            "SidecarFilename": "*field_map_first*e2.*",
+            "EchoTime": 0.00738
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "phasediff",
+         "customLabels": "acq-mapfirst",
+         "IntendedFor": [
+            5,
+            6,
+            7,
+            8
+         ],
+         "criteria": {
+            "SidecarFilename": "*field_map_first*e2_ph*"
+         },
+         "sidecarChanges": {
+            "EchoTime1": 0.00492,
+            "EchoTime2": 0.00738
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "epi",
+         "customLabels": "acq-mapfirst_dir-AP",
+         "IntendedFor": [
+            5,
+	    6,
+            7,
+            8
+         ],
+         "criteria": {
+            "SidecarFilename": "*map_first_ap*"
+         }
+      },
+      {
+         "dataType": "fmap",
+	      "modalityLabel": "epi",
+	      "customLabels": "acq-mapfirst_dir-PA",
+         "IntendedFor": [
+            5,
+            6,
+            7,
+            8
+         ],
+         "criteria": {
+            "SidecarFilename": "*map_first_pa*"
+         }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-smst_acq-map_run-01",
+         "criteria": {
+            "SidecarFilename": "*MAP_1*"
+         },
+         "sidecarChanges": {
+            "TaskName": "smst_map"
+         }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-smst_acq-map_run-02",
+         "criteria": {
+            "SidecarFilename": "*MAP_2*"
+         },
+         "sidecarChanges": {
+            "TaskName": "smst_map"
+         }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-smst_acq-map_run-03",
+         "criteria": {
+            "SidecarFilename": "*MAP_3*"
+         },
+         "sidecarChanges": {
+            "TaskName": "smst_map"
+         }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-smst_acq-map_run-04",
+         "criteria": {
+            "SidecarFilename": "*MAP_4*"
+         },
+         "sidecarChanges": {
+            "TaskName": "smst_map"
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "magnitude1",
+         "customLabels": "acq-mapsecond",
+         "IntendedFor": [
+            14,
+            15,
+            16,
+            17
+         ],
+         "criteria": {
+            "SidecarFilename": "*field_map_second*e1*",
+            "EchoTime": 0.00492
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "magnitude2",
+         "customLabels": "acq-mapsecond",
+         "IntendedFor": [
+            14,
+            15,
+            16,
+            17
+         ],
+         "criteria": {
+            "SidecarFilename": "*field_map_second*e2.*",
+            "EchoTime": 0.00738
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "phasediff",
+         "customLabels": "acq-mapsecond",
+         "IntendedFor": [
+            14,
+            15,
+            16,
+            17
+         ],
+         "criteria": {
+            "SidecarFilename": "*field_map_second*e2_ph*"
+         },
+         "sidecarChanges": {
+            "EchoTime1": 0.00492,
+            "EchoTime2": 0.00738
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "epi",
+	      "customLabels": "acq-mapsecond_dir-AP",
+         "IntendedFor": [
+            14,
+            15,
+            16,
+            17
+         ],
+         "criteria": {
+            "SidecarFilename": "*map_second_ap*"
+         }
+      },
+      {
+         "dataType": "fmap",
+         "modalityLabel": "epi",
+	      "customLabels": "acq-mapsecond_dir-PA",
+         "IntendedFor": [
+            14,
+            15,
+            16,
+            17
+         ],
+         "criteria": {
+            "SidecarFilename": "*map_second_pa*"
+         }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-smst_acq-map_run-05",
+         "criteria": {
+            "SidecarFilename": "*MAP_5*"
+         },
+         "sidecarChanges": {
+            "TaskName": "smst_map"
+         }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-smst_acq-map_run-06",
+         "criteria": {
+            "SidecarFilename": "*MAP_6*"
+         },
+         "sidecarChanges": {
+            "TaskName": "smst_map"
+	      }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-smst_acq-map_run-07",
+         "criteria": {
+            "SidecarFilename": "*MAP_7*"
+         },
+         "sidecarChanges": {
+            "TaskName": "smst_map"
+         }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-smst_acq-map_run-08",
+         "criteria": {
+            "SidecarFilename": "*MAP_8*"
+         },
+         "sidecarChanges": {
+            "TaskName": "smst_map"
+         }
+      }
+   ]
+}
