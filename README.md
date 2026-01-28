@@ -34,3 +34,10 @@ The preprocessing and analysis pipeline is provided in code, together with inter
 * **onsets/** - FEAT-formatted onset files for all experimental conditions (e.g. exact repeats, semantic lures, encoding vs. recognition) for use with FSL design files.
 * **registrations/** - Transform matrices and warps for affine and SyN registrations (using ANTs) between various modalities.
 * **templates/** - Group-specific templates derived from PD and T1 images (only including initial averages and the final templates)
+
+
+**Related works (regularly updated)**
+
+Experimental softwares and raw data is available at: https://doi.org/10.5281/zenodo.18395407
+
+Data analysis pipelines: https://doi.org/10.5281/zenodo.18395334
